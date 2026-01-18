@@ -27,8 +27,9 @@ SECRET_KEY = 'django-insecure-7veqv_-ir_yx#+0kt7_%ou*0q^a)!2nb)irj@br=l0mhgbo)h8
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS=['*']
 
-ALLOWED_HOSTS = []
+CSRF_TRUSTED_ORIGINS = ['https://django-nlp-blog.onrender.com']
 
 
 # Application definition
