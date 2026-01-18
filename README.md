@@ -1,13 +1,17 @@
-🤖 AI Blog Analyzer - Django + NLP Sentiment Analysis
+# 🤖 AI Blog Analyzer - Django + NLP Sentiment Analysis
 
-Full-stack web app that automatically analyzes blog post sentiment 
-(Positive 😊 / Negative 😞 / Neutral 😐) using TextBlob NLP.
+**Full-stack Django app** that auto-analyzes blog posts:
+- 😊 Positive / 😞 Negative / 😐 Neutral 
+- **TextBlob NLP** (scores -1.0 to +1.0)
+- Color-coded cards (Green/Red/Gray)
 
-✨ Features:
-• Real-time sentiment scoring (-1.0 to +1.0)
-• Color-coded posts (Green/Red/Gray)
-• Django ORM + SQLite + Admin panel
-• Responsive design
+## ✨ Live Demo
+`[Add Render URL after deployment]`
 
-💼 Portfolio project for full-stack + ML roles
-🔗 Live demo: [Add Render URL after deploy]
+## 🚀 Features
+- Real-time sentiment analysis
+- Django Admin panel
+- Responsive design
+
+## 💼 Portfolio Skills
+**Django 6.0 • Python 3.13 • NLP • Full-stack**
