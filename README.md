@@ -5,6 +5,7 @@
 - **TextBlob NLP** (scores -1.0 to +1.0)
 - Color-coded cards (Green/Red/Gray)
 
+![Screenshots](Screenshot 2026-01-18 165512.png)
 ## ✨ Live Demo
 `https://django-nlp-blog.onrender.com'
 
