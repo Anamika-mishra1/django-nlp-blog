@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Blog Analyzer 🚀</title>
+    <style>body{font-family:Arial;max-width:800px;margin:50px auto;padding:20px;}
+    .post{border:1px solid #ddd;margin:20px 0;padding:20px;border-radius:10px;}
+    .positive{background:#d4f4d4;}.negative{background:#f4d4d4;}.neutral{background:#f0f0f0;}
+    .sentiment{font-size:24px;font-weight:bold;}h1{color:#333;}a{color:#007bff;}</style>
+</head>
+<body>
+<h1>🤖 NLP Blog Posts ({{ posts.count }})</h1><a href="/admin/">Admin ➕</a>
+{% for post in posts %}
+<div class="post {% if post.get_sentiment_label == 'Positive 😊' %}positive{% elif post.get_sentiment_label == 'Negative 😞' %}negative{% else %}neutral{% endif %}">
+<h2>{{ post.title }}</h2><p>{{ post.content|truncatewords:30 }}</p>
+<div class="sentiment">{{ post.get_sentiment_label }}</div>
+<div>Score: {{ post.sentiment|floatformat:3 }}</div><small>{{ post.created_at|date:"M d, Y" }}</small>
+</div>{% endfor %}
+</body>
+</html>
