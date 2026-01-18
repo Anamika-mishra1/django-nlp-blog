@@ -6,7 +6,7 @@
 - Color-coded cards (Green/Red/Gray)
 
 ## ✨ Live Demo
-`[Add Render URL after deployment]`
+`https://django-nlp-blog.onrender.com'
 
 ## 🚀 Features
 - Real-time sentiment analysis
